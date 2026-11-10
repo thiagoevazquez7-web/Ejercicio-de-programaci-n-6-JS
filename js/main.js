@@ -44,3 +44,39 @@ while(CantidadDeGatos > 0) {
     --CantidadDeGatos
 }
 
+
+
+
+/* EJERCICIO C */
+
+console.warn('Ejercicio C')
+
+var CantidadDeGatos = 10
+var pasos = 5
+
+
+
+while(CantidadDeGatos > 0) {
+    CdeGatos = '🐈'
+
+    
+    var totalPasos = ''
+
+    for(pisada = 0; pisada < pasos; pisada++){
+        totalPasos += '🐾'
+    }
+
+    if(CantidadDeGatos % 2){
+        var cuadrado = '⬛'
+
+        var total = CdeGatos + cuadrado + totalPasos
+        console.log(total)
+    }
+
+    else {
+        var total = CdeGatos + totalPasos
+        console.log(total)
+    }
+    
+    --CantidadDeGatos
+}
